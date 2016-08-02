@@ -3,7 +3,9 @@ package packexercises.thrd10basics;
 import static packexercises.common.ThreadUtilities.randomSleep;
 
 public class CounterThread extends Thread {
-	private int counter = 0;	
+	private int counter = 0;
+	//private int i = 0;
+	
 	{
 		System.out.println("Object created: CounterRunnable");
 	}
